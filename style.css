@@ -1,0 +1,126 @@
+/* CSS Styles för webbsidan "Sju sorters kakor" */
+
+/* Grundinställningar för brödtext och sidans bakgrundsbild (tillagd via CSS) */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #efe4d6;
+  background-image: url("bilder/bakgrund.jpg");
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Håller stycken och listobjekt på en radlängd som är behaglig att läsa */
+p,li {
+  max-width: 700px;
+}
+
+/* Huvudmeny längst upp på sidan */
+nav {
+  background-color: #5c3a21;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Placerar menylänkarna på en vågrät rad */
+nav li {
+  display: inline;
+  margin: 0 14px;
+}
+
+/* Länktillstånd för länkarna i menyn (utgångsläge och hovring) */
+nav a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f3c892;
+}
+
+/* Olika rubriknivåer (h1, h2, h3) */
+h1 {
+  font-family: Georgia, serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #5c3a21;
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Receptrubriker */
+h2 {
+  font-family: Georgia, serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #6b4226;
+  text-align: center;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7a4b2a;
+}
+
+/* Sidhuvud som är extra tydligt stilsatt för att framträda */
+header {
+  background-color: #efe4d6;
+  padding: 40px;
+  margin-bottom: 35px;
+}
+
+header figure {
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+/* Centrerar texten under bilden i sidhuvudet */
+header p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Varje kakrecept är en egen sektion med mellanrum emellan */
+article {
+  background-color: #ffffff;
+  padding: 40px;
+  margin-bottom: 35px;
+}
+
+/* Bilder med rundade hörn, ram och responsiv storlek */
+img {
+  max-width: 100%;
+  margin: 0 auto;
+  border: 2px solid #d9c7b2;
+  border-radius: 6px;
+}
+
+/* Receptbilderna placeras centrerat ovanför recepttexten */
+article figure {
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 13px;
+  font-style: italic;
+  color: #666666;
+}
+
+/* Sidfot längst ned på sidan */
+footer {
+  background-color: #5c3a21;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px;
+}
+
+footer p {
+  margin: 6px auto;
+}
